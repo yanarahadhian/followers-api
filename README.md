@@ -1,25 +1,48 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[See API documentations](https://followers-api.herokuapp.com/)
 
-Things you may want to cover:
+# Features
 
-* Ruby version
+  - Friend connections
+  - Subscribe
+  - Block / Ublock user from updates
 
-* System dependencies
+### Tech
 
-* Configuration
+Dillinger uses a number of open source projects to work properly:
 
-* Database creation
+* [Ruby] - Dynamic, reflective, object-oriented, general-purpose programming language
+* [Ruby on Rails] - A server-side web application framework written in Ruby
+* [Rubygems] - The platform indicates the gem only works with a ruby built for the same platform
+* [ApipieRails] - Ruby on Rails API documentation tool
+* [Heroku] - A platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
 
-* Database initialization
+### Installation
 
-* How to run the test suite
+How to [Install Rails](http://installrails.com/)
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+$ git clone REPOSITORY
+$ cd project
+$ bundle install
+$ rake db:create && rake db:migrate
+$ rails s
+```
 
-* Deployment instructions
+### Run Unit Testing
 
-* ...
-# followers-api
+```sh
+$ cd project
+$ bundle exec rspec spec/
+```
+
+#### Expected
+```
+...............................
+
+Finished in 1.89 seconds (files took 1.39 seconds to load)
+31 examples, 0 failures
+
+Coverage report generated for RSpec to /home/yana/Documents/my_job/followers-api/coverage. 155 / 169 LOC (91.72%) covered.
+```
