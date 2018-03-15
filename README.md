@@ -4,9 +4,9 @@
 
 # Features
 
-  - Friend connections
-  - Subscribe
-  - Block / Ublock user from updates
+  - User connections
+  - Subscribe / Unsubscribe
+  - Block / Unblock user from updates
 
 ### Tech
 
@@ -39,10 +39,10 @@ $ bundle exec rspec spec/
 
 #### Expected
 ```
-...............................
+............................
 
-Finished in 1.6 seconds (files took 1.9 seconds to load)
-31 examples, 0 failures
+Finished in 2.57 seconds (files took 6.31 seconds to load)
+28 examples, 0 failures
 
-Coverage report generated for RSpec to /Users/apple/Documents/HomeWork/friend_management_api/coverage. 165 / 179 LOC (92.18%) covered.
+Coverage report generated for RSpec to /home/yana/Documents/my_job/followers-api/coverage. 130 / 145 LOC (89.66%) covered.
 ```
